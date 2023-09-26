@@ -29,7 +29,7 @@ class MyApp extends StatelessWidget {
     return Observer(
       builder: (_) => MaterialApp(
         debugShowCheckedModeBanner: false,
-        title: '${'News Blog'}${!isMobile ? ' ${platformName()}' : ''}',
+        title: '${'News Blogging'}${!isMobile ? ' ${platformName()}' : ''}',
         home: NBSplashScreen(),
         theme: !appStore.isDarkModeOn ? AppThemeData.lightTheme : AppThemeData.darkTheme,
         navigatorKey: navigatorKey,
